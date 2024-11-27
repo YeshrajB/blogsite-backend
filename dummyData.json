@@ -1,0 +1,144 @@
+{
+    "users": [
+        {
+            "username": "Glenn Acosta",
+            "email": "glennacosta@digigene.com",
+            "role": "admin",
+            "password": "mypassword",
+            "about": "Nisi magna excepteur laborum eu incididunt ea excepteur proident dolor. Fugiat sunt aute sit cillum ipsum esse adipisicing reprehenderit nostrud. Sit esse ad quis ea.\r\n",
+            "isActive": true
+        },
+        {
+            "username": "Arline Ball",
+            "email": "arlineball@digigene.com",
+            "role": "editor",
+            "password": "password123",
+            "about": "Sunt non voluptate enim eu occaecat officia enim ex excepteur tempor. Culpa reprehenderit do commodo incididunt. Et nulla esse cillum et proident cillum proident quis deserunt. Reprehenderit cillum laboris minim cupidatat. Commodo irure irure nulla aute aliquip eiusmod sit. Irure minim ad irure dolore non enim commodo culpa veniam cillum laborum pariatur.\r\n",
+            "isActive": false
+        },
+        {
+            "username": "Byers Alston",
+            "email": "byersalston@digigene.com",
+            "role": "author",
+            "password": "secretpassword",
+            "about": "Quis pariatur sunt cupidatat consequat nostrud sunt officia laboris do quis in nulla consequat Lorem. Sint et id consequat esse enim veniam tempor reprehenderit sint eu occaecat aliquip non aute. Excepteur reprehenderit eiusmod eu ut magna.\r\n",
+            "isActive": true
+        },
+        {
+            "username": "Anastasia Cardenas",
+            "email": "anastasiacardenas@digigene.com",
+            "role": "user",
+            "password": "secret123",
+            "about": "Irure id minim in pariatur veniam ut Lorem sit est incididunt incididunt ipsum. Deserunt duis aliquip incididunt enim aute voluptate proident qui voluptate mollit occaecat in. Mollit laborum ut est nulla sint magna deserunt duis exercitation do labore sit eu veniam.\r\n",
+            "isActive": false
+        },
+        {
+            "username": "Odonnell Salinas",
+            "email": "odonnellsalinas@digigene.com",
+            "password": "supersecretpassword",
+            "role": "user",
+            "about": "Fugiat dolore laborum aute labore laborum reprehenderit dolor laborum sunt nostrud nostrud sint. Est veniam irure velit labore adipisicing exercitation elit. Eu cupidatat consequat do non quis aliquip excepteur laborum culpa enim anim officia. Eiusmod consectetur id dolor ullamco aliqua culpa.\r\n",
+            "isActive": true
+        }
+    ],
+    "roles": [
+        {
+            "name": "admin",
+            "description": "Full system access"
+        },
+        {
+            "name": "editor",
+            "description": "Content management"
+        },
+        {
+            "name": "author",
+            "description": "Create and manage own content"
+        },
+        {
+            "name": "user",
+            "description": "Basic read access"
+        }
+    ],
+    "posts": [
+        {
+            "title": "Introduction to Node.js",
+            "content": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It is developed by Ryan Dahl in the year 2009 and v22.4.1 is the latest version of Node.js. Because it is cross-platform one can easily run on Windows, Linux, Unix, macOS and more. Node.js is the backbone of modern web development, providing a powerful environment for server-side scripting.",
+            "authorId": "user123",
+            "tags": [
+                "JavaScript",
+                "Node.js",
+                "Backend"
+            ]
+        },
+        {
+            "title": "Understanding Asynchronous JavaScript",
+            "content": "Asynchronous JavaScript allows us to write non-blocking code.",
+            "authorId": "user456",
+            "tags": [
+                "JavaScript",
+                "Async",
+                "Programming"
+            ]
+        },
+        {
+            "title": "A Guide to MongoDB",
+            "content": "MongoDB is a NoSQL database that uses JSON-like documents. The document data model maps to how you think and code. Break out of rigid, tabular data structures with flexible documents that map directly to objects in your code. Embed related data into a single document to increase performance and minimize computational cost.",
+            "authorId": "user789",
+            "tags": [
+                "Database",
+                "MongoDB",
+                "NoSQL"
+            ]
+        }
+    ],
+    "permissions": [
+        {
+            "action": "create",
+            "resource": "post"
+        },
+        {
+            "action": "read",
+            "resource": "post"
+        },
+        {
+            "action": "update",
+            "resource": "post"
+        },
+        {
+            "action": "delete",
+            "resource": "post"
+        },
+        {
+            "action": "create",
+            "resource": "user"
+        },
+        {
+            "action": "read",
+            "resource": "user"
+        },
+        {
+            "action": "update",
+            "resource": "user"
+        },
+        {
+            "action": "delete",
+            "resource": "user"
+        },
+        {
+            "action": "create",
+            "resource": "role"
+        },
+        {
+            "action": "read",
+            "resource": "role"
+        },
+        {
+            "action": "update",
+            "resource": "role"
+        },
+        {
+            "action": "delete",
+            "resource": "role"
+        }
+    ]
+}

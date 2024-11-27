@@ -54,8 +54,6 @@ exports.signup = async (req, res) => {
             return res.status(404).json({ message: 'Role not found' });
         }
 
-        // user.permissions = roleData.permissions;
-
         await user.save();
 
         res.status(201).json({ message: 'User created successfully' });
